@@ -5,7 +5,7 @@ body {
     display: flex;
 }
 .main >div {
-    padding: 20px 40px;
+    padding: 40px 20px;
 } 
 .one {
     flex: 1;
@@ -22,20 +22,50 @@ body {
 }
 img {
      border-radius: 100px;
-     width: 150px;
-     height: 150px;
+     width: 230px;
+     height: 230px;
      align-items: center;
 }
-h1 {
+.title {
+    font-size: 50px;
     text-align: center;
-    margin-top: 100px;
-    margin-bottom: 60px;
+    color: aliceblue;
 }
-h2 {
+.h1 {
+    font-size: 40px;
     text-align: center;
+    color: aliceblue;
+}
+.h1a {
+    font-size: 30px;
+    color: aliceblue;
+}
+.h1-two {
+    color: aliceblue;
+    text-align: center;
+    font-size: 40px;
+}
+.h2-two {
+    color: aliceblue;
+}
+.p-two {
+    color: aliceblue;
+}
+.p1 {
+    width: 434px;
+    padding: 314px;
+    align-items: normal;
+    align-items: center;
+    margin-left: 109px;
+    margin-top: -313px;
+    font-size: 38px;
+    color: aliceblue;
 }
 .font {
     font-size: larger;
+}
+h2 {
+    text-align: center;
 }
 .period {
    width: 120px; 
@@ -45,10 +75,6 @@ h2 {
     display: flex;
     padding-left: 1300px;
     margin-bottom: 30px;
-}
-h1, h2, p {
-    color: white;
-    font-style: ;
 }
 .container {
     display: flex;
@@ -70,4 +96,57 @@ h1, h2, p {
     display: flex;
     margin-left: 80px;
     padding-left: 250px;  
+}
+.one {
+    margin-left: 48px;
+    height: 1435px;
+    width: 840px;
+    background-image: url(bg-left.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-top: 201px;
+}
+.two {
+    margin-left: 48px;
+    height: 1535px;
+    width: 840px;
+    background-image: url(bg-center.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-top: 201px;
+}
+.three {
+    margin-left: 48px;
+    height: 1435px;
+    width: 840px;
+    background-image: url(bg-right.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-top: 201px;
+}
+.p2 {
+    width: 434px;
+    padding: 314px;
+    align-items: normal;
+    align-items: center;
+    margin-right: 356px;
+    margin-top: -313px;
+    font-size: 38px;
+}
+.p3 {
+    width: 434px;
+    padding: 314px;
+    align-items: normal;
+    align-items: center;
+    margin-left: 356px;
+    margin-top: -313px;
+    font-size: 38px;
+}
+.img1 {
+    margin-left: 402px;
+    width: 270px;
+    height: 270px;
 }
