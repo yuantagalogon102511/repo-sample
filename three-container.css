@@ -19,6 +19,17 @@ body {
 .three {
     flex: 1;
     order: 3;
+    color: aliceblue;
+}
+.less {
+    margin-top: 60px;
+    margin-bottom: -70px;
+    margin-top: 60px;
+    margin-bottom: -14px;
+    margin-left: 111px;
+    margin-right: 111px;
+    width: 120px;
+    height: 92px;
 }
 img {
      border-radius: 100px;
@@ -30,36 +41,37 @@ img {
     font-size: 50px;
     text-align: center;
     color: aliceblue;
+    font-family: lato;
 }
 .h1 {
-    font-size: 40px;
+    font-size: 80px;
     text-align: center;
     color: aliceblue;
+    font-family: lato;
 }
-.h1a {
-    font-size: 30px;
+.h2a {
+    font-size: 50px;
     color: aliceblue;
+    font-family: lato;
+}
+.h2-two {
+    font-size: 60px;
+    color: aliceblue;
+    font-family: lato;
 }
 .h1-two {
     color: aliceblue;
     text-align: center;
-    font-size: 40px;
+    font-size: 100px;
+    font-family: lato;
 }
 .h2-two {
     color: aliceblue;
+    font-family: lato;
 }
 .p-two {
     color: aliceblue;
-}
-.p1 {
-    width: 434px;
-    padding: 314px;
-    align-items: normal;
-    align-items: center;
-    margin-left: 109px;
-    margin-top: -313px;
-    font-size: 38px;
-    color: aliceblue;
+    font-family: lato;
 }
 .font {
     font-size: larger;
@@ -68,13 +80,13 @@ h2 {
     text-align: center;
 }
 .period {
-   width: 120px; 
-   height: 30px;
+   width: 180px; 
+   height: 50px;
 }
 .dotdot {
     display: flex;
-    padding-left: 1300px;
-    margin-bottom: 30px;
+    padding-left: 2600px;
+    margin-bottom: 30px
 }
 .container {
     display: flex;
@@ -111,7 +123,7 @@ h2 {
     margin-left: 48px;
     height: 1535px;
     width: 840px;
-    background-image: url(bg-center.png);
+    background-image: url(bgcenter.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -127,26 +139,84 @@ h2 {
     background-size: contain;
     margin-top: 201px;
 }
-.p2 {
-    width: 434px;
-    padding: 314px;
-    align-items: normal;
+.p1 {
+    width: 60%;
     align-items: center;
-    margin-right: 356px;
-    margin-top: -313px;
-    font-size: 38px;
+    margin: 0 auto;
+    font-size: 45px;
+    color: aliceblue;
+    font-family: lato;
+    text-align: justify;
+    padding: 34px;
+}
+.block {
+    display: block;
+}
+.p2 {
+    width: 60%;
+    align-items: center;
+    margin: 0 auto;
+    font-size: 65px;
+    color: aliceblue;
+    font-family: lato;
+    text-align: justify;
+    padding: 104px;
 }
 .p3 {
-    width: 434px;
-    padding: 314px;
-    align-items: normal;
+    width: 60%;
     align-items: center;
-    margin-left: 356px;
-    margin-top: -313px;
-    font-size: 38px;
+    margin: 0 auto;
+    font-size: 45px;
+    color: aliceblue;
+    font-family: lato;
+    text-align: justify;
+    padding: 34px;
 }
 .img1 {
     margin-left: 402px;
     width: 270px;
     height: 270px;
+    border-radius: 189px;
+}
+.img2 {
+    margin-left: 402px;
+    margin-top: -126px;
+    width: 300px;
+    height: 300px;
+    border-radius: 189px;
+}
+.img3 {
+    margin-left: 702px;
+    width: 270px;
+    height: 270px;
+    border-radius: 189px;
+}
+.h1-three {
+    color: aliceblue;
+    text-align: center;
+    font-size: 80px;
+    font-family: lato;
+}
+.h2-three {
+    font-size: 50px;
+    color: aliceblue;
+    font-family: lato;
+}
+.qoute1 {
+    margin-left: 800px;
+    margin-top: -39px;
+    height: 90px;
+    width: 90px;
+}
+.qoute2 {
+    margin-left: 800px;
+    margin-top: 0px;
+    height: 110px;
+    width: 110px;
+}
+.qoute3 {
+    margin-left: 800px;
+    margin-top: -39px;
+    height: 90px;
+    width: 90px;
 }
