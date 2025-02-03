@@ -1,0 +1,27 @@
+.all {
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+.container {
+    display: grid;
+    grid-template-rows: 30% 70%;
+    margin-top: auto;
+    padding: 10px;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-flow: dense;
+}
+.h1{
+    margin-left: 2px;
+    font: roboto;
+}
+.parent {
+    width: 70%;
+    height: auto;
+    display: grid;
+    grid-template-columns: 30em 30em;
+    margin-left: 90px;
+}
+.icon{
+    margin-top: -56px;
+}
